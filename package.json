@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://pptzz.github.io/go-it-react-01-components/",
+  "homepage": "https://pptzz.github.io/goit-react-hw-01-components/",
   "scripts": {
     "start": "vite",
     "predeploy": "npm run build",
