@@ -1,9 +1,9 @@
 {
-  "name": "vite-template",
+  "name": "go-it-react-01-components",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://pptzz.github.io/vite-template/",
+  "homepage": "https://pptzz.github.io/go-it-react-01-components/",
   "scripts": {
     "start": "vite",
     "predeploy": "npm run build",
@@ -13,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "glob": "^11.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -27,6 +28,8 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "gh-pages": "^6.1.1",
     "globals": "^15.9.0",
+    "prop-types": "^15.8.1",
+    "react-router-dom": "^6.26.2",
     "vite": "^5.4.1"
   }
 }

@@ -1,0 +1,22 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: 30px;
+    background-color: #d3d3d3;
+    
+}
+
+.route{
+    text-decoration: none;
+    color: #313131;
+    font-weight: bold;
+}
+
+.route:hover{
+    color: black;
+    transform: translate(1%);
+}
