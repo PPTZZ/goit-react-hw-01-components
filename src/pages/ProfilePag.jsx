@@ -7,7 +7,7 @@ const ProfilePag = () => {
 	const { username, tag, location, avatar, stats } = user;
 	return (
 		<div className={style.page}>
-			{/* <Link to='/' className='link'>Home</Link> */}
+			<Link to='/' className='link'>Home</Link>
 			<Profile
 				username={username}
 				tag={tag}

@@ -5,7 +5,7 @@ import Statistics from '../components/Statistics';
 const StatisticsPag = () => {
 	return (
 		<div>
-			{/* <Link to='/' className='link'>Home</Link> */}
+			<Link to='/' className='link'>Home</Link>
 			<Statistics title='' data={data}/>
 		</div>
 	);
