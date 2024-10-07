@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import style from '../css/pages/App.module.css'
 const App = () => {
