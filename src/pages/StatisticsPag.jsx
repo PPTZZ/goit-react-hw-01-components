@@ -7,7 +7,8 @@ const StatisticsPag = () => {
 		return (
 		<div className={style.statsPag}>
 			<Link to='/' className='link'>Home</Link>
-			<Statistics title='' stats={data}/>
+			<Statistics title='Upload stats' stats={data}/>
+			<Statistics  stats={data}/>
 		</div>
 	);
 };
