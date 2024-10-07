@@ -13,8 +13,8 @@ createRoot(document.getElementById('root')).render(
 			<Routes>
 				<Route index path='/' element={<App />} />
 				<Route path='profile' element={<ProfilePag />} />
-				<Route path='friends' element={<FriendsListPag />} />
 				<Route path='statistics' element={<StatisticsPag />} />
+				<Route path='friends' element={<FriendsListPag />} />
 				<Route path='transactions' element={<TransactionHistoryPag />} />
 			</Routes>
 		</BrowserRouter>
