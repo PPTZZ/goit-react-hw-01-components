@@ -1,0 +1,33 @@
+
+.transactionHistory{
+    border-collapse: collapse;
+
+    
+    
+    tr,
+    td{
+        border: 1px solid gray;
+        width: 250px;
+        height: 30px;
+        text-align: center;
+    }
+
+    td{
+        text-transform: uppercase;
+        color: gray;
+    }
+    tr{
+        background-color: white;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2; /* Change this to your desired color */
+    }
+    
+    th{
+        background-color: skyblue;
+        color: #fff;
+        
+    }
+}
+
