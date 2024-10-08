@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 import user from '../data/user.json';
 import style from '../css/pages/ProfilePag.module.css'
