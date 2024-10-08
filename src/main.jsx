@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')).render(
 	<StrictMode>
 		<HashRouter>
 			<Routes>
-				<Route index path='/goit-react-hw-01-components' element={<App />} />
+				<Route index path='/' element={<App />} />
 				<Route path='/profile' element={<ProfilePag />} />
 				<Route path='/statistics' element={<StatisticsPag />} />
 				<Route path='/friends' element={<FriendsListPag />} />
